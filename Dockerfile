@@ -1,2 +1,2 @@
-FROM nginx:alpine
-COPY site /usr/share/nginx/html
+FROM nginx:1.25.3
+COPY site site
